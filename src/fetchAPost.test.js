@@ -26,8 +26,8 @@ describe('Simple Example', function () {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts/1')
     const post = await response.json()
 
-    expect(response.status).to.equal(200)
-    expect(post.id).to.equal(1)
+    expect(response.status).toEqual(200)
+    expect(post.id).toEqual(1)
 
     /*
       Calling `stop` will persist requests as well as disconnect from any
