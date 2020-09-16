@@ -19,7 +19,7 @@ npx create-react-app cypress-polly-cra-ts-example-app --template typescript
 ## Add Polly.js
 
 ```bash
-yarn add @pollyjs/core -D
+yarn add @pollyjs/core -D @pollyjs/adapter-fetch @pollyjs/persister-local-storage
 
 ```
 

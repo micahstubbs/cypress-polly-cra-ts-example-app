@@ -39,7 +39,9 @@
     ]
   },
   "devDependencies": {
+    "@pollyjs/adapter-fetch": "^5.0.0",
     "@pollyjs/core": "^5.0.0",
+    "@pollyjs/persister-local-storage": "^5.0.0",
     "cypress": "^5.2.0"
   }
 }
