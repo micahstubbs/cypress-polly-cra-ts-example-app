@@ -1,3 +1,9 @@
+# cypress-polly-cra-ts-example-app
+
+A minimal example app that (hopefully) shows how to get the [Cypress](https://www.cypress.io/) test framework working with the [Polly.js](https://netflix.github.io/pollyjs/#/) http interaction recorder.
+
+# implementation
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
