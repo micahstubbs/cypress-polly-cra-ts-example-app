@@ -10,7 +10,7 @@ yarn cypress run --headed --no-exit --spec cypress/integration/examples/polly_in
 
 Then you should see:
 
-![fs.realpath.native error](error-small.png)
+![fs.realpath.native error](./error-small.png)
 
 ## Error Details
 
