@@ -1,6 +1,12 @@
-Test that throws the error
+## Steps to reproduce
 
-`cypress/integration/examples/polly_inside_cypress_filesystem.spec.js`
+```bash
+git clone
+yarn
+yarn cypress run --headed --no-exit --spec cypress/integration/examples/polly_inside_cypress_filesystem.spec.js
+```
+
+## Error Details
 
 TypeError
 The following error originated from your test code, not from Cypress.
