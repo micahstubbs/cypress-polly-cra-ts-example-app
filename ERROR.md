@@ -1,10 +1,16 @@
+fs.realpath is undefined when running Polly filesystem test inside of Cypress Chrome 85
+
 ## Steps to reproduce
 
 ```bash
-git clone
+git clone git@github.com:micahstubbs/cypress-polly-cra-ts-example-app.git
 yarn
 yarn cypress run --headed --no-exit --spec cypress/integration/examples/polly_inside_cypress_filesystem.spec.js
 ```
+
+Then you should see:
+
+![fs.realpath.native error](error-small.png)
 
 ## Error Details
 
