@@ -10,6 +10,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 npx create-react-app cypress-polly-cra-ts-example-app --template typescript
 ```
 
+## Add Cypress
+
+```bash
+ yarn add cypress --dev
+```
+
+## Add Polly.js
+
+```bash
+yarn add @pollyjs/core -D
+
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
