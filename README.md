@@ -4,7 +4,11 @@ A minimal example app that (hopefully) shows how to get the [Cypress](https://ww
 
 # implementation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the command:
+
+```bash
+npx create-react-app cypress-polly-cra-ts-example-app --template typescript
+```
 
 ## Available Scripts
 
