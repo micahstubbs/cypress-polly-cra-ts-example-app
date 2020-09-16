@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@pollyjs/core": "^5.0.0",
     "cypress": "^5.2.0"
   }
 }
